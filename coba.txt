@@ -1,0 +1,34 @@
+Cari pengertian dari black box, white box, interrupt testing, compatibility testing
+Jawab	:
+	: 
+a. Black Box Testing  
+Teknik black box testing adalah pengujian sebuah aplikasi yang sedang dikembangkan di uji berdasarkan fungsionalitas sistemnya. Pengujian ini berfokus terhadap hasil input dan output yang ada yang sesuai dengan spesifikasi dan kebutuhan pengguna. Terdapat tipe-tipe dari pengujian black box testing : 
+	a. Functional testing : pengujian dilakukan untuk mengetahui bahwa setiap fitur aplikasi dapat berjalan dengan baik. Pada fungsional testing ini berfokus kepada bisnis proses yang akan berjalan. Contoh Berhasil melakukan login ketika inputan data valid.
+	b. Non-functional testing : pengujian dilakukan untuk mengetes apakah software tersebut dapat berjalan dan dioperasikan dengan benar atau tidak. Contoh Loading dashboard hanya 5 detik setelah berhasil login.
+Regression Testing, setelah dilakukan Functional testing dan 	c.Non-functional testing maka akan di cek kembali fungsionalitasnya agar ketika terjadi perubahan dan penambahan tidak merusak fungsionalitas yang sudah ada.
+
+Adapun tools untuk melakukan black box testing itu sendiri yaitu : 
+	a. Untuk melakukan testing  aplikasi berdasarkan fungsionalitas bisa menggunakan QTP, Selenium
+	b. Untuk melakukan testing aplikasi berdasarkan non fungsionalnya bisa menggunakan LoadRunner, Jmeter
+
+b. White Box Testing
+Teknik white box testing yang berfokus pada pengujian struktur internal, codingan, desain dari aplikasi yang telah dibuat. Pengujian ini menghasilkan  inputan, codingan, output.
+
+c. Interrupt Testing : proses mengganggu aplikasi saat berjalan, contoh 
+	a. Crash : ketika sedang membuka aplikasi, misalkan membuka menu profil tiba-tiba layar putih langsung keluar dari aplikasi
+	b. Stuck : ketika membuka aplikasi, tidak bisa lanjut ke halaman selanjutnya masih di splash screen
+	c. Graphical Issue : misal lagi main game, tiba-tiba grafiknya menurun
+Progress doesn’t save (App with progress/check point), misal lagi main game, tapi ketika mau save ga bisa ketika buka game nya lagi balik ke progress pas sebelum main
+	d. Compatibility Testing : Uji coba akses software yang diujikan, pada device serta sistem operasi yang berbeda-beda. Misal testing dari operasi sistem, koneksi, browser, perangkat, platform  yang berbeda
+
+Pengertian git, github cara buat repository
+git adalah sistem Kontrol, salah satu feature yang di sediakan oleh Git, yang membuat programmer bisa menyimpan, mengubah, dan memperbaiki program dengan sinkronisasi penuh pada lokal komputer. sedangkan github kita bisa melakukannya secara online. 
+
+Cara buat repository
+1. Buka Google Chrome dan Akses Situs Github
+2. Kemudian login menggunakan Akun Github kamu
+3. kemudian pilih pada Create new repository
+4. masukkan Detail repository seperti : name, deskripsi kamu
+5. Kemudian Pilih Keterlihatan pilih public atau privat
+6. Centang Pada Add a README file
+7. Setelah selesai Langsung create repository
